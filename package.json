@@ -19,7 +19,10 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
+    "gulp-server-livereload": "^1.9.2",
     "sass": "^1.56.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-live-server": "0.0.31"
+  }
 }
