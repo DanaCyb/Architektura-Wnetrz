@@ -1,0 +1,25 @@
+{
+  "name": "architektura_wnetrz",
+  "version": "1.0.0",
+  "description": "Project of www Architektura wnętrz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanaCyb/Architektura-Wnetrz.git"
+  },
+  "author": "DC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanaCyb/Architektura-Wnetrz/issues"
+  },
+  "homepage": "https://github.com/DanaCyb/Architektura-Wnetrz#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {}
+}
