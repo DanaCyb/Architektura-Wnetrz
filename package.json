@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/DanaCyb/Architektura-Wnetrz.git"
   },
-  "author": "DC",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DanaCyb/Architektura-Wnetrz/issues"
@@ -18,11 +18,6 @@
   "homepage": "https://github.com/DanaCyb/Architektura-Wnetrz#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0",
-    "gulp-server-livereload": "^1.9.2",
-    "sass": "^1.56.1"
-  },
-  "dependencies": {
-    "gulp-live-server": "0.0.31"
+    "gulp-sass": "^5.1.0"
   }
 }
