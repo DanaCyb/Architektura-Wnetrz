@@ -1,2 +1,3 @@
 # Architektura-Wnetrz
-Project of www Architektura wnętrz
+<b>Project of www Architektura wnętrz<br></b>
+Course with strefakursow.pl
