@@ -29,18 +29,15 @@ $h3-font-size:1.375rem;
 $h4-font-size:1rem;
 $h5-font-size:.875rem;
             
-
-
 //kolory Bootstrap5 - nadpisywanie kolorów
 $theme-colors: (
-  "primary":    $sk-accent-color
-);
+  "primary": $sk-accent-color);
 
-  $gray-100: $sk-gray-100;
-  $gray-200: $sk-gray-200;
-  $gray-600: $sk-gray-600;
-  $gray-800: $sk-gray-800;
-  $gray-900: $sk-gray-900;
+$gray-100: $sk-gray-100;
+$gray-200: $sk-gray-200;
+$gray-600: $sk-gray-600;
+$gray-800: $sk-gray-800;
+$gray-900: $sk-gray-900;
 
 //obramowania
 $border-radius:0;
