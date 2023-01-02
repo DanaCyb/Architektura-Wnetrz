@@ -1,11 +1,11 @@
 //@import własnych zmiennych
-@import './custom/base/variables';
+@import './custom/base/_variables';
 
 //@import "source Bootstrap5";
 @import './bootstrap/bootstrap';
 
 //import w własnych stylów
-@import './custom/base/mixins';
-@import './custom/base/typography';
-@import './custom/components/components';
-@import './custom/pages/pages';
+@import './custom/base/_mixins';
+@import './custom/base/_typography';
+@import './custom/components/_components';
+@import './custom/pages/_pages';
