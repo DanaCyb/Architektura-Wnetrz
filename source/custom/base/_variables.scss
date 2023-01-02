@@ -19,20 +19,20 @@ $sk-product-search-btn-color: #CCCCCC;
 //Własne zmienne tekst
 $sk-font-family-body: 'Lato';
 $sk-font-family-secondary: 'Oswald';
-$headings-font-weight:700;
-$font-size-base:0.875rem;
-$line-height-base:1.75rem;
+$headings-font-weight: 700;
+$font-size-base: 0.875rem;
+$line-height-base: 1.75rem;
 $font-size-sm: ($font-size-base * .75);
 
-$h2-font-size:2.143rem;
-$h3-font-size:1.375rem;
-$h4-font-size:1rem;
-$h5-font-size:.875rem;
+$h2-font-size: 2.143rem;
+$h3-font-size: 1.375rem;
+$h4-font-size: 1rem;
+$h5-font-size: .875rem;
             
 //kolory Bootstrap5 - nadpisywanie kolorów
 $theme-colors: (
-  "primary": $sk-accent-color);
-
+  "primary": $sk-accent-color
+ );
 $gray-100: $sk-gray-100;
 $gray-200: $sk-gray-200;
 $gray-600: $sk-gray-600;
