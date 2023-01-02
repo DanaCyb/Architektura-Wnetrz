@@ -1,7 +1,8 @@
-const {src, dest, series } = require('gulp');
+const {src, dest } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const cssDest = 'style';
 const cssInputFile = 'source/style.scss';
+
 
 function streamSass(){
   return src(cssInputFile)
@@ -12,3 +13,5 @@ function streamSass(){
   )
   .pipe(dest(cssDest));
 }
+
+exports.streamSass = streamSass;
