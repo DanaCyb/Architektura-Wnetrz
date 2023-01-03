@@ -1,50 +1,59 @@
-//własne zmienne colory
+// Wlasne zmienne - kolory
 $sk-accent-color: #BE8C6B;
-
 $sk-gray-100: #F8F8F8;
 $sk-gray-200: #EEEEEE;
 $sk-gray-600: #B7B7B7;
 $sk-gray-800: #707070;
 $sk-gray-900: #444444;
-
 $sk-white: #FFFFFF;
 $sk-black: #000000;
-
 $sk-input-bg: #FCFCFC;
 $sk-input-border-color: darken($sk-gray-200, 3%);
-
 $sk-contact-form-shadow: #292C31;
 $sk-product-search-btn-color: #CCCCCC;
 
-//Własne zmienne tekst
+// Wlasne zmienne - tekst
 $sk-font-family-body: 'Lato';
 $sk-font-family-secondary: 'Oswald';
-            
-//kolory Bootstrap5 - nadpisywanie kolorów
+
+// Kolory Bootstrap 4
 $theme-colors: (
 	"primary": $sk-accent-color 
 );
-
 $gray-100: $sk-gray-100;
 $gray-200: $sk-gray-200;
 $gray-600: $sk-gray-600;
 $gray-800: $sk-gray-800;
 $gray-900: $sk-gray-900;
 
-//obramowania
-$border-radius: 0;
-$border-radius-sm: 0;
+// obramowania
+$border-radius:  0;
 $border-radius-lg: 0;
+$border-radius-sm:  0;
 
-//tekst
+// tekst
 $font-family-sans-serif: $sk-font-family-body;
 $headings-font-family: $sk-font-family-secondary;
 $headings-font-weight: 700;
-$font-size-base: 0.875rem;
-$line-height-base: 1.75rem;
+$font-size-base: .875rem;
+$line-height-base: 1.75;
 $font-size-sm: ($font-size-base * .75);
+$h2-font-size:  2.143rem;
+$h3-font-size:  1.375rem;
+$h4-font-size:  1rem;
+$h5-font-size:  .875rem;
 
-$h2-font-size: 2.143rem;
-$h3-font-size: 1.375rem;
-$h4-font-size: 1rem;
-$h5-font-size: .875rem;
+// Jumbotron
+$jumbotron-padding: 7rem;
+
+// input
+$input-group-addon-bg: $gray-800;
+$input-group-addon-border-color: none;
+$input-border-color: $sk-input-border-color;
+
+// Paginacja
+$pagination-color: $gray-900;
+$pagination-bg:  none;
+$pagination-border-width: 0;
+$pagination-hover-color:  $sk-accent-color;
+$pagination-hover-bg: none;
