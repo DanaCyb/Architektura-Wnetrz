@@ -17,9 +17,8 @@ $sk-font-family-body: 'Lato';
 $sk-font-family-secondary: 'Oswald';
 
 // Kolory Bootstrap 4
-$theme-colors: (
-	"primary": $sk-accent-color 
-);
+
+$primary: $sk-accent-color;
 $gray-100: $sk-gray-100;
 $gray-200: $sk-gray-200;
 $gray-600: $sk-gray-600;
