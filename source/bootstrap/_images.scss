@@ -6,7 +6,7 @@
 // which weren't expecting the images within themselves to be involuntarily resized.
 // See also https://github.com/twbs/bootstrap/issues/18178
 .img-fluid {
-  @include img-fluid();
+  @include img-fluid;
 }
 
 
@@ -16,10 +16,11 @@
   background-color: $thumbnail-bg;
   border: $thumbnail-border-width solid $thumbnail-border-color;
   @include border-radius($thumbnail-border-radius);
+  @include transition($thumbnail-transition);
   @include box-shadow($thumbnail-box-shadow);
 
   // Keep them at most 100% wide
-  @include img-fluid();
+  @include img-fluid;
 }
 
 //
@@ -32,11 +33,11 @@
 }
 
 .figure-img {
-  margin-bottom: $spacer * .5;
+  margin-bottom: ($spacer / 2);
   line-height: 1;
 }
 
 .figure-caption {
-  @include font-size($figure-caption-font-size);
+  font-size: $figure-caption-font-size;
   color: $figure-caption-color;
 }
